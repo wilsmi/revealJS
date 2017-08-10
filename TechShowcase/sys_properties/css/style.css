@@ -9,7 +9,7 @@
   position: absolute;
   z-index: 1;
   right: 0;
-  bottom: -26px;
+  top: -5px;
   left: 0;
   display: block;
   content: 'pop!';
