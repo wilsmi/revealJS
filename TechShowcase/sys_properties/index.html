@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Making properties pages pop!</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <header>
+                    <h1>Tech Showcase</h1>
+                    <h2>Making properties pages pop!</h2>
+                </header>
+                <p>
+                    <a href="slack://open?messages/C03HSMSEZ/">Slack: @will.smith</a>
+                </p>
+                <p><a href="mailto:will.smith@cernasolutions.com" target="_blank" class="roll">will.smith@cernasolutions.com</a></p>
+            </section>
+            <section>
+                <section>
+                    <header>
+                        <h2>Best practices</h2>
+                    </header>
+                    <br/>
+                    <p>
+                        <ul>
+                            <li>No hard-coding of values in scripts</li>
+                            <li>Making changes in just one location</li>
+                            <li>Saving time and human error</li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <header>
+                        <h2>Naming conventions</h2>
+                    </header>
+
+                    <p>
+                        <ul>
+                            <li>Easy to locate</li>
+                            <li>Future-proof</li>
+                        </ul>
+                    </p>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <header>
+                        <h2>Categories and pages</h2>
+                    </header>
+                    <ul>
+                        <li>Groups of related system properties</li>
+                        <li>Add header and helpful description</li>
+                        <li>Add helpful links to wiki/doc page</li>
+                        <li>Properties pages are built from categories</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Pages <span style="color:teal">></span> Categories <span style="color:#C0392B">></span> Properties</h3>
+                </section>
+            </section>
+
+            <section>
+                <h2>Server-side use</h2>
+                <p><strong>gs.getProperty('<em>name</em>');</strong></p>
+            </section>
+            <section>
+                <h1><em>DEMO</em></h1>
+            </section>
+        </div>
+    </div>
+
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="js/initialize.js"></script>
+
+    <script>
+        // Turn autoSlide off
+        Reveal.configure({
+            autoSlide: 0
+        });
+
+        // Start auto-sliding every 5s
+        Reveal.configure({
+            autoSlide: 5000
+        });
+    </script>
+</body>
+
+</html>
