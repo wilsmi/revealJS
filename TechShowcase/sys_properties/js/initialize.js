@@ -128,3 +128,13 @@
      display: 'block'
 
  });
+
+// CONFIGURATION
+ // Turn autoSlide off
+ Reveal.configure({
+     autoSlide: 0
+ });
+ // Start auto-sliding every 5s
+ Reveal.configure({
+     autoSlide: 5000
+ });
